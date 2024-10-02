@@ -13,7 +13,7 @@ export default async function getBlogMetatags(blogData) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="title" content="${blogData.title}">
     <meta name="description" content="${blogData.description || 'Filog is a blogging platform where users can create accounts, write articles, and share their blogs with the world. Join Filog and start blogging today! Crafting Narratives, Lighting the Way Forward.'}">
-    <link rel="canonical" href=https://www.filog.in/blog/${} />
+    <link rel="canonical" href="${blogData.siteUrl}" />
 
     
     <!-- Open Graph / Facebook Meta Tags -->
