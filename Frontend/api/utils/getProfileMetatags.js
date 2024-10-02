@@ -13,7 +13,8 @@ export default async function getProfileMetatags(profileData) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="title" content="${profileData.title}">
     <meta name="description" content="${profileData.description || 'Filog is a blogging platform where users can create accounts, write articles, and share their blogs with the world. Join Filog and start blogging today! Crafting Narratives, Lighting the Way Forward.'}">
-
+    <link rel="canonical" href="${profileData.siteUrl}" />
+    
     <!-- Open Graph / Facebook Meta Tags -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="${profileData.siteUrl}">
