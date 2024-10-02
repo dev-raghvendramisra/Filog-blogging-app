@@ -12,22 +12,22 @@ export default async function getBlogMetatags(blogData) {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="title" content="${blogData.title}">
-    <meta name="description" content="Filog is a blogging platform where users can create accounts, write articles, and share their blogs with the world. Join Filog and start blogging today! Crafting Narratives, Lighting the Way Forward.">
+    <meta name="description" content="${blogData.description || 'Filog is a blogging platform where users can create accounts, write articles, and share their blogs with the world. Join Filog and start blogging today! Crafting Narratives, Lighting the Way Forward.'}">
 
     <!-- Open Graph / Facebook Meta Tags -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="${blogData.siteUrl}">
     <meta property="og:title" content="${blogData.title}">
-    <meta property="og:description" content="Filog is a blogging platform where users can create accounts, write articles, and share their blogs with the world. Join Filog and start blogging today! Crafting Narratives, Lighting the Way Forward.">
-    <meta property="og:image" content="${blogData.imgUrl}">
+    <meta property="og:description" content="${blogData.description || 'Filog is a blogging platform where users can create accounts, write articles, and share their blogs with the world. Join Filog and start blogging today! Crafting Narratives, Lighting the Way Forward.'}">
+    <meta property="og:image" content="${blogData.imgUrl || '/path/to/default/image.webp'}">
     <meta property="og:site_name" content="Filog">
 
     <!-- Twitter Meta Tags -->
-    <meta name="twitter:card" property="twitter:card" content="summary_large_image">
+    <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="${blogData.siteUrl}">
-    <meta name="twitter:title" property="twitter:title" content="${blogData.title}">
-    <meta name="twitter:description" property="twitter:description" content="Filog is a blogging platform where users can create accounts, write articles, and share their blogs with the world. Join Filog and start blogging today! Crafting Narratives, Lighting the Way Forward.">
-    <meta name="twitter:image" property="twitter:image" content="${blogData.imgUrl}">
+    <meta name="twitter:title" content="${blogData.title}">
+    <meta name="twitter:description" content="${blogData.description || 'Filog is a blogging platform where users can create accounts, write articles, and share their blogs with the world. Join Filog and start blogging today! Crafting Narratives, Lighting the Way Forward.'}">
+    <meta name="twitter:image" content="${blogData.imgUrl || '/path/to/default/image.webp'}">
 
     <!-- Additional Meta Tags -->
     <meta name="keywords" content="blogging, articles, write blogs, share blogs, create account, Filog, blogging platform">
