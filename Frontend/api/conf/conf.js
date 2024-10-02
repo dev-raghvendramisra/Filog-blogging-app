@@ -14,6 +14,8 @@
 <meta name="title" content="Filog - Create and Share Your Blog Articles | Crafting Narratives, Lighting the Way Forward">
 <meta name="description" content="Filog is a user-friendly blogging platform that allows you to create accounts, write articles, and share your thoughts with the world. Join Filog today and start your blogging journey!">
 <meta name="keywords" content="blogging, write blogs, share blogs, create account, Filog, blogging platform, articles">
+<link rel="canonical" href="https://www.filog.in/" />
+
 
 <!-- Open Graph / Facebook Meta Tags -->
 <meta property="og:type" content="website">
