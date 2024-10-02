@@ -1,19 +1,57 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  <url>
-    <loc>https://filog.in/</loc>
-    <lastmod>2024-10-02T14:24:13+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://filog.in/blog</loc>
-    <lastmod>2024-10-02T14:24:13+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://filog.in/about</loc>
-    <lastmod>2024-10-02T14:24:13+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://filog.in/github</loc>
-    <lastmod>2024-10-02T14:24:13+00:00</lastmod>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://filog.in/</loc>
+<lastmod>2024-10-02T18:11:44+01:00</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://filog.in/verify-email</loc>
+<lastmod>2024-10-02T18:11:44+01:00</lastmod>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://filog.in/dashboard</loc>
+<lastmod>2024-10-02T18:11:44+01:00</lastmod>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://filog.in/write</loc>
+<lastmod>2024-10-02T18:11:44+01:00</lastmod>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://filog.in/about</loc>
+<lastmod>2024-10-02T18:11:44+01:00</lastmod>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://filog.in/login</loc>
+<lastmod>2024-10-02T18:11:44+01:00</lastmod>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://filog.in/profile</loc>
+<lastmod>2024-10-02T18:11:44+01:00</lastmod>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://filog.in/featured</loc>
+<lastmod>2024-10-02T18:11:44+01:00</lastmod>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://filog.in/following</loc>
+<lastmod>2024-10-02T18:11:44+01:00</lastmod>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://filog.in/signup</loc>
+<lastmod>2024-10-02T18:11:44+01:00</lastmod>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://filog.in/playground</loc>
+<lastmod>2024-10-02T18:11:44+01:00</lastmod>
+<priority>1.0</priority>
+</url>
 </urlset>
