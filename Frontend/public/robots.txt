@@ -1,8 +1,6 @@
 # robots.txt for https://filog.in/
 
-# Allow all crawlers access to everything
 User-agent: *
-Disallow:
-
-# Sitemap location
+Disallow: 
+Disallow: /cgi-bin/
 Sitemap: https://filog.in/sitemap.xml
